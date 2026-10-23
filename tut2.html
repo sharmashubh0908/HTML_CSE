@@ -1,11 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> </title>
+  </head>
+  <body>
+    <h1>FORM FOR CRICKET TRAILS</h1>
 
-</head>
-<body>
-    
-</body>
+    <form action="post">
+      <label for="username">ENTER YOUR NAME:</label>
+      <br />
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="your name"
+      />
+
+      <hr />
+
+      <label for="AD_NUM">ENTER YOUR ADDMISSION NUMBER:</label>
+      <br />
+      <input
+        type="text"
+        id="AD_NUM"
+        name="AD_NUM"
+        placeholder="your admission number"
+      />
+      <hr />
+
+      <label for="course">ENTER YOUR COURSE:</label>
+      <br />
+      <input type="text" id="course" name="course" placeholder="your course" />
+      <hr />
+      CHOOSE YOUR SECTION:
+      <br />
+      <select name="section">
+        <option value="cse1">cse1</option>
+        <option value="cse2">cse2</option>
+        <option value="cse3">cse3</option>
+      </select>
+      <hr />
+      ENETR YOUR GENDER:
+      <br />
+      <input type="radio" id="male" name="gender" value="MALE" />
+      <label for="male">MALE</label>
+
+      <input type="radio" id="female" name="gender" value="FEMALE" />
+      <label for="female">FEMALE</label>
+
+      <hr />
+      SELECT YOUR ROLE:
+      <br />
+      <input type="checkbox" id="role" name="role" value="BATSMAN" />
+      <label for="role">BATSMAN</label>
+      <input type="checkbox" id="role" name="role" value="BOWLER" />
+      <label for="role">BOWLER</label>
+      <hr />
+      SELECT YOUR TYPE:
+      <br />
+      <input type="checkbox" id="type" name="type" value="right handed" />
+      <label for="type">RIGHT-HANDED</label>
+      <input type="checkbox" id="type" name="type" value="left handed" />
+      <label for="type">LEFT-HANDED</label>
+      <br>
+      <hr>
+
+      ENTER YOUR ACHIVEMENTES:
+      <br />
+      <textarea
+        name="achivements"
+        id="achivements"
+        cols="30"
+        rows="10"
+        placeholder="your achivements"
+      ></textarea>
+      <hr />
+      SUBMIT THE FORM
+      <br />
+      <input type="submit" value="SUBMIT" />
+
+      <hr />
+    </form>
+  </body>
 </html>
